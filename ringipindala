@@ -1,0 +1,13 @@
+<?php
+
+$raadius = $argv[1];
+
+echo "Ringipindala on: " . round($raadius * $raadius * (pi()),2);
+
+echo "\n";
+
+echo "Ringiumbermoot on: " . round(2 * (pi()) * $raadius,2);
+
+echo "\n";
+
+?>
