@@ -1,0 +1,9 @@
+<?php
+
+$eek = $argv [1];
+
+echo "Eurodes: "  .  $eek / 15.6466;
+
+echo "\n";
+
+?>
